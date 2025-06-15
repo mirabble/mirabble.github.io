@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="560.33118"
+   height="659.44971"
+   viewBox="0 0 560.33171 659.44972"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     inkscape:clip-to-page="false"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="395.9798"
+     inkscape:cy="370.52395"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="87.756228 : 262.59933 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="2528.6617 : 1276.8972 : 1"
+       inkscape:persp3d-origin="649.01663 : 130.31586 : 1"
+       id="perspective5" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-255.65401,-34.733254)">
+    <path
+       id="path25"
+       style="fill:#1a1a1a"
+       d="M 791.74384,455.90933 C 675.77882,421.64221 685.0651,694.18296 553.47021,694.18295 c -131.59489,0 -137.98516,-323.47596 -238.27362,-238.27362 -176.36,149.83064 87.52884,-304.10104 166.97915,-409.005107 75.30979,-99.437025 428.46331,444.138087 309.5681,409.005107 z"
+       sodipodi:nodetypes="sssss" />
+    <ellipse
+       style="fill:#ffffff"
+       id="path26"
+       cx="532.83234"
+       cy="275.797"
+       rx="50.656593"
+       ry="69.418297" />
+    <ellipse
+       style="fill:#ffffff"
+       id="path26-3"
+       cx="650.78046"
+       cy="277.51404"
+       rx="50.656593"
+       ry="69.418297" />
+  </g>
+</svg>

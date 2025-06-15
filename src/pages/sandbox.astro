@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex-container1 {
+        background-color: red;
+        display: flex;
+        justify-content: space-between;
+      }
+      .a1 {
+        background-color: yellow;
+        border: 1px solid black;
+        padding: 5px;
+      }
+      .center1 {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+      }
+
+      .container2 {
+        display: flex;
+      }
+      .item12 {
+        background-color: cyan;
+        padding: 3px;
+      }
+      .item22 {
+        background-color: purple;
+        padding: 3px;
+      }
+      .container2:hover .item12 {
+        background-color: red;
+      }
+
+      .container3 {
+        background-color: darkgreen;
+        padding: 10px;
+      }
+      .son3 {
+        background-color: red;
+        padding: 10px;
+      }
+      .grandson3 {
+        background-color: aqua;
+        padding: 10px;
+      }
+
+      .container3:hover .grandson3 {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome To The Sandbox World !</h1>
+    <p>
+      This page is where I test some new shit I try to implement in the website
+      ! of course as you can see this page is not designed to be a part of the
+      website so if you found it I guess you can consider it an Easter Egg !
+      congrats ! I honestly dont know how you found this page but I am proud of
+      you ! I would like to know how you found it. maybe a dirb attack ? or you
+      just happenned to be here by accident ? dont tell me you cheated and
+      checked the source. anyways enjoy my weird world of experiments !
+    </p>
+    <p>
+      Side Note : There are more easter eggs to find ! If you are down for a
+      challenge please dont check the source :)
+    </p>
+    <br />
+    <h1>Experiment 1 :</h1>
+    <p>
+      On this one I am trying to have three divs in a flexbox with them being
+      adjusted with space-between but the center one staying in center no matter
+      what ! if you want to know how I did it, definetley check the source ! :)
+    </p>
+    <div class="flex-container1">
+      <div class="a1">1</div>
+      <div class="a1 center1">2</div>
+      <div class="a1">Lorem ipsum dolor</div>
+    </div>
+    <h1>Experiment 2 :</h1>
+    <p>
+      Here I am trying to apply an effect when either of the items in the div
+      are hovered !
+    </p>
+    <div class="container2">
+      <div class="item12">logo</div>
+      <div class="item22">site title</div>
+    </div>
+    <h1>Experiment 3 :</h1>
+    <p>
+      here I am trying to see if grandsons of a tag are count as childs of the
+      tag in css !
+    </p>
+    <div class="container3">
+      father
+      <div class="son3">
+        son
+        <div class="grandson3">grandson</div>
+      </div>
+    </div>
+  </body>
+</html>

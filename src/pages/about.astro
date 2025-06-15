@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/BlogPost.astro";
+import AboutHeroImage from "../assets/blog-placeholder-about.jpg";
+---
+
+<Layout
+  title="About Me"
+  description="About this Blog and Me !"
+  pubDate={new Date("June 13 2025")}
+  heroImage={AboutHeroImage}
+>
+  <p>
+    In This Blog I'm going to mostly post my Projects, Blogs about my Projects
+    and Blogs about the Process of Developing My Projects !
+  </p>
+  <p class="bottom-text">
+    If You have a <strong>Cool Project</strong> you are working on or need Help with
+    something you can contact me at <code>goodernest64@gmail.com</code>
+  </p>
+</Layout>
+
+<style>
+  code {
+    padding: 5px 5px;
+    margin: 0;
+    border-radius: 10px;
+  }
+  .bottom-text {
+    margin-bottom: 10px;
+  }
+</style>
